@@ -319,9 +319,13 @@ padding-bottom: 188px;
     width: calc((100% - 48px) / 3);
 }
 
-.option-item:nth-child(3n){
+/* .option-item:nth-child(3n){
 margin-right: 0;
 }
+
+.option-item:nth-last-child(-n+3) {
+    margin-right: 0;
+} */
 
 
 
