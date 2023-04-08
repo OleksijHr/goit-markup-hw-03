@@ -370,6 +370,7 @@ margin-right: 24px;
     padding-left: 16px;
     padding-right: 16px;
     border-radius: 0px 0px 4px 4px;
+    border: 1px solid var(--accent-clr);
 }
 
 .surename{
@@ -398,7 +399,7 @@ margin-right: 24px;
 /* Portfolio page */
 /* filters */
 
-.filters .section{
+.filters.section{
     padding-top: 96px;
     padding-bottom: 120px;
 }
@@ -454,12 +455,6 @@ margin-right: 24px;
 
 .filters-item{
     width: calc((100%-48px)/3);
-}
-
-.window {
-    border: 1px solid #e7e9fc;
-    border-radius: 0 0 4px 4px;
-    border: 1px solid var(--accent-clr);
 }
 
 .filters-img{
