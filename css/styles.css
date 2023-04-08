@@ -266,7 +266,7 @@ padding-bottom: 188px;
 
 /* Features */
 
-.features{}
+/* .features{} */
 
 .features-list{
     display: flex;
@@ -319,9 +319,9 @@ padding-bottom: 188px;
     width: calc((100% - 48px) / 3);
 }
 
-/* .option-item:not(:last-child){
-margin-right: 24px;
-} */
+.option-item:nth-child(3n){
+margin-right: 0;
+}
 
 
 
