@@ -369,6 +369,7 @@ margin-right: 24px;
     padding-bottom: 32px;
     padding-left: 16px;
     padding-right: 16px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .surename{
@@ -399,9 +400,7 @@ margin-right: 24px;
 
 .filters .section{
     padding-top: 96px;
-    padding-bottom: 96px;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-bottom: 120px;
 }
 
 .btn-filters-list{
@@ -469,7 +468,7 @@ margin-right: 24px;
 
 .filters-text{
     margin-left: 16px;
-margin-bottom: 8px;
+    margin-bottom: 8px;
 
     font-family: 'Roboto';
     font-style: normal;
