@@ -316,7 +316,7 @@ padding-bottom: 188px;
 }
 
 .option-item{
-    width: calc((100% - 48px) / 3);
+    width: calc((100%-48px)/3);
 }
 
 /* .option-item:not(:last-child){
@@ -370,6 +370,7 @@ margin-right: 24px;
     padding-left: 16px;
     padding-right: 16px;
     border-radius: 0px 0px 4px 4px;
+    border-top: none;
     border: 1px solid var(--accent-clr);
 }
 
@@ -457,7 +458,7 @@ margin-right: 24px;
 }
 
 .filters-item{
-    width: calc((100% - 48px) / 3);
+    width: calc((100%-48px)/3);
 }
 
 .filters-img{
