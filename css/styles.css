@@ -370,8 +370,8 @@ margin-right: 24px;
     padding-left: 16px;
     padding-right: 16px;
     border-radius: 0px 0px 4px 4px;
-    border-top: none;
     border: 1px solid var(--accent-clr);
+    border-top: none;
 }
 
 .surename{
