@@ -453,12 +453,12 @@ margin-right: 24px;
     justify-content: center;
 }
 
-.filters-item a{
-    display: block;
+.filters-item {
+    width: calc((100%-3*16px)/3)
 }
 
-.filters-item{
-    width: calc((100%-3*16px)/3)
+.filters-item a{
+    display: block;
 }
 
 .filters-img{
