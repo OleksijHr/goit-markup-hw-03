@@ -312,6 +312,7 @@ padding-bottom: 188px;
 
 .options-list{
     display: flex;
+    gap: 24px;
 }
 
 .option-item{
@@ -451,7 +452,6 @@ margin-right: 0;
 .filters-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
     column-gap: 24px;
     row-gap: 48px;
     justify-content: center;
