@@ -316,7 +316,7 @@ padding-bottom: 188px;
 }
 
 .option-item{
-    width: calc((100% - 48px)/3);
+    width: calc((100% - 48px) / 3);
 }
 
 /* .option-item:nth-child(3n){
@@ -459,7 +459,7 @@ margin-right: 0;
 
 
 .filters-item {
-    width: calc((100% - 48px)/3);
+    width: calc((100% - 48px) / 3);
 }
 
 .filters-img{
