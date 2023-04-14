@@ -69,7 +69,7 @@ padding: 0;
     padding-left: 15px;
     padding-right: 15px;
 
-    border: 2px solid tomato;
+    outline: 1px solid red;
 }
 
 .section{
