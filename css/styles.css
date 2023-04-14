@@ -297,6 +297,10 @@ padding-bottom: 188px;
 }
 
 /* Work options */
+.section>.container:nth-child(3){
+    width: 1158px;
+}
+
 .option-name{
     margin-bottom: 72px;
 
@@ -307,6 +311,7 @@ padding-bottom: 188px;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+
     color: var(--primary-text-dark-clr);
 }
 
@@ -357,7 +362,7 @@ margin-right: 0;
 .team-item{
     width: calc((100%-72px)/4);
 
-    background-color: var(--primary-inverted-bg-clr);
+    background-color: inherit;
 }
 /* 
 .team-item:not(:last-child) {
@@ -376,6 +381,8 @@ margin-right: 0;
     border-radius: 0px 0px 4px 4px;
     border: 1px solid var(--accent-clr);
     border-top: none;
+
+    background-color: var(--primary-inverted-bg-clr);
 }
 
 .surename{
