@@ -297,9 +297,9 @@ padding-bottom: 188px;
 }
 
 /* Work options */
-/* .section>.container:nth-child(3){
+.section>.container:nth-child(3){
     width: 1158px;
-} */
+}
 
 .option-name{
     margin-bottom: 72px;
