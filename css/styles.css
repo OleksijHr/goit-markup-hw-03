@@ -324,14 +324,10 @@ padding-bottom: 188px;
     width: calc((100% - 48px) / 3);
 }
 
-/* .option-item:nth-child(3n){
-margin-right: 0;
+.option-item>img{
+    margin-left: auto;
+    margin-right: auto;
 }
-
-.option-item:nth-last-child(-n+3) {
-    margin-right: 0;
-} */
-
 
 
 /* Team */
@@ -469,8 +465,11 @@ margin-right: 0;
     width: calc((100% - 48px) / 3);
 }
 
-/* .filters-img{
-} */
+.filters-img{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .filters-text{
     margin-left: 16px;
