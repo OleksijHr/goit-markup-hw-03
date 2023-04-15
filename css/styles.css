@@ -297,9 +297,9 @@ padding-bottom: 188px;
 }
 
 /* Work options */
-.section>.container:nth-child(3){
+/* .section>.container:nth-child(3){
     width: 1158px;
-}
+} */
 
 .option-name{
     margin-bottom: 72px;
@@ -321,7 +321,7 @@ padding-bottom: 188px;
 }
 
 .option-item{
-    width: calc((100% - 48px) / 3);
+    width: calc((100%-48px)/3);
 }
 
 .option-item>img{
