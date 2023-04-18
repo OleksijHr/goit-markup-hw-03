@@ -49,7 +49,8 @@ img{
 /* utility */
 
 .list{
-padding: 0;
+    margin: 0;
+    padding: 0;
 
     list-style: none;
 }
@@ -82,6 +83,18 @@ padding: 0;
     margin-right: auto;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 
 /* header */
 .page-header{
@@ -209,6 +222,8 @@ padding-bottom: 100px;
 }
 
 .footer-text {
+width: 264px;
+
     font-family: 'Roboto';
     font-size: 16px;
     line-height: 1.5;
@@ -298,6 +313,9 @@ padding-bottom: 188px;
 
 /* Work options */
 
+.work{
+    padding-top: 0;
+}
 
 .option-name{
     margin-bottom: 72px;
@@ -356,7 +374,9 @@ padding-bottom: 188px;
 .team-item{
     width: calc((100%-72px)/4);
 
-    background-color: inherit;
+    background: var(--primary-inverted-bg-clr);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
 }
 /* 
 .team-item:not(:last-child) {
@@ -364,7 +384,6 @@ padding-bottom: 188px;
 } */
 
 .team-pearson{
-    margin-bottom: 32px;
 }
 
 .info{
@@ -372,12 +391,7 @@ padding-bottom: 188px;
     padding-bottom: 32px;
     padding-left: 16px;
     padding-right: 16px;
-    border-radius: 0px 0px 4px 4px;
-    border: 1px solid var(--accent-clr);
-    border-top: none;
-
-    background-color: var(--primary-inverted-bg-clr);
-}
+   }
 
 .surename{
     margin-bottom: 8px;
@@ -470,7 +484,6 @@ padding-bottom: 188px;
 }
 
 .filters-text{
-    margin-left: 16px;
     margin-bottom: 8px;
 
     font-family: 'Roboto';
@@ -484,9 +497,6 @@ padding-bottom: 188px;
 }
 
 .filters-name{
-    margin-left: 16px;
-margin-bottom: 32px;
-
     font-family: 'Roboto';
     font-weight: 400;
     font-size: var(--primary-font-size);
